@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Crack', 'Pitting Corrosion', 'Uniform Corrosion']
+
+roboflow:
+  workspace: identification-pittin-corrosion
+  project: corrosion-segmentation-rsfbe
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/identification-pittin-corrosion/corrosion-segmentation-rsfbe/dataset/1
